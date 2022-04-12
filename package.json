@@ -1,0 +1,36 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "it's a to-do app",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metzbot/todo.git"
+  },
+  "keywords": [
+    "to-do",
+    "list"
+  ],
+  "author": "taylor miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metzbot/todo/issues"
+  },
+  "homepage": "https://github.com/metzbot/todo#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
